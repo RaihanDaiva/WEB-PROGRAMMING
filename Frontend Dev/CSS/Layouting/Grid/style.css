@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+    margin: 0px;
+    /* display: flex;
+    justify-content: center; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container-0-1{
+    display: flex;
+    justify-content: center;
+}
+
+.container-1 {
+    /* background-color: aqua; */
+    width: 100%;
+    margin: 0px 20px;
+}
+
+.container-calc {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 5px;
+    justify-content: center;
+
+}
+
+.container-calc>div {
+    /* background-color: antiquewhite; */
+    width: 84px;
+    height: 84px;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    gap: 10px;
+}
+
+.container-hasil2{
+    color: white;
+    font-size: 70px;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: end;
+    height: fit-content;
+}
+
+.container-hasil2 > p{
+    margin:0px ;
+    height: fit-content;
+}
+
+.container-hasil1{
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
+}
+
+.container-hasil1 > p{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: end;
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 500px){
+    .container-1{
+        width: 25%;
+    }
+}
+
+.container-2{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-grid-area{
+    background-color: aliceblue;
+    width: 50%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+}
+
+.container-grid-area > div{
+    background-color: aqua;
+    text-align: center;
+}
+
+.item1{
+    grid-area: 2 / 1 / span 1 / span 3 ;
+}

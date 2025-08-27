@@ -1,0 +1,81 @@
+*,
+html{
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  background-color: rgb(255, 255, 255)
+}
+.container-navbar{
+  background-color: aqua;
+  /* width: 100%;
+  height: 10vh; */
+} 
+.ul-navbar{
+  height: 10vh;
+  background-color: rgb(64, 63, 63);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.li-navbar{
+  /* background-color: black; */
+  /* font-style:; */
+  font-size: 25;
+  color: white;
+  list-style: none;
+  padding: 20px;
+  margin: 20;
+}
+.li-navbar:hover{
+  background-color: rgb(147, 142, 142);
+    /* border: 1px solid; */
+    transition: .5s ;
+    transition-delay: .1s;
+    border-radius: 8px;
+}
+.a-navbar{
+  color: white;
+  text-decoration: none;
+}
+.a-navbar-aktif{
+  /* background-color: rgb(117, 118, 120); */
+  color: rgb(0, 0, 0);
+  font-weight:bold ;
+  text-decoration: none;
+  
+}
+.container-operasi{
+  background-color:rgb(255, 255, 255) ;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.operasi{
+  background-color: rgb(125, 121, 121);
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+input, button{
+  font-size: 20px;
+}
+h1{
+  font-size: 70px;
+}
+label{
+  font-size: 30px;
+  font-weight: bold;
+}
+p{
+  padding: 10px;
+  font-size: 30px;
+}
