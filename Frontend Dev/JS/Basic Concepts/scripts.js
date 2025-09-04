@@ -50,10 +50,17 @@ while (i < 3){
     i++;
 }
 
+output2.innerHTML += "<br><h1>Looping array</h1>";
 const mobil = ["Toyota", "Honda", "Suzuki"];
-for (let i = 0; mobil.length; i++){
-    output2.innerHTML += `<h2>${i+1}. Saya Raihan</h2>`;
+mobil.push("Benelli")
+for (let i = 0; i < mobil.length; i++){
+    output2.innerHTML += `<h2>${i+1}. ${mobil[i]}</h2>`;
 }
+
+let mobilLength = (mobil.length > 4) ? "betul" : "salah";
+output2.innerHTML += "<br><h1>If else ternary</h1>";
+output2.innerHTML += `<h2>${mobilLength}</h2>`;
+
 
 
 
